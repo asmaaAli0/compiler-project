@@ -9,7 +9,7 @@ first phase of the interpreter for cool  is lexical analysi
 -bring your grammar (in this project it is COOL.g4)
 -press Ctrl+Shift+G
 
-# 1)Lexical analysis:
+# 1)Lexical Analysis:
 
 Introduction :
 Lexical analysis is the first phase of a compiler. It takes the modified source code from language preprocessors 
@@ -19,7 +19,7 @@ it generates an error. The lexical analyzer works closely with the syntax analyz
 from the source code, checks for legal tokens, and passes the data to the syntax analyzer when it demand
 ![](https://raw.githubusercontent.com/asmaa122281/compiler-project/master/lexical%20(1).png)
 
-# Regular expressions:
+# Regular Expressions:
 
 A good way of specifying and documenting the lexer is transition diagrams.
 
@@ -33,7 +33,7 @@ More concisely, we can use regular expressions:
     Letter = 'A' | ... | 'Z' | 'a' | ... | 'z'
     IdChar = Letter | Digit
     TKey   = 'i' 'f' | 'e' 'l' 's' 'e' | ...
-    TSpec  = '+''+' | '+' | ...For more info, please check For http://www.cse.chalmers.se/edu/year/2009/course/TIN321_Proglang/lectures/proglang-04.html
+    TSpec  = '+''+' | '+' | ...For more info, please check For (http://www.cse.chalmers.se/edu/year/2009/course/TIN321_Proglang/lectures/proglang-04.html)
 
 
 
