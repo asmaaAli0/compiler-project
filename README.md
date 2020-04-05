@@ -37,7 +37,7 @@ More concisely, we can use regular expressions:
     Letter = 'A' | ... | 'Z' | 'a' | ... | 'z'
     IdChar = Letter | Digit
     TKey   = 'i' 'f' | 'e' 'l' 's' 'e' | ...
-    TSpec  = '+''+' | '+' | ...For more info, please check For this link: [GitHub]http://www.cse.chalmers.se/edu/year/2009/course/TIN321_Proglang/lectures/proglang-04.html)
+    TSpec  = '+''+' | '+' | ...For more info, please check For this link: http://www.cse.chalmers.se/edu/year/2009/course/TIN321_Proglang/lectures/proglang-04.html - automatic!
 
 
 
