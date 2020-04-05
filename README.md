@@ -15,6 +15,7 @@ first phase of the interpreter for cool  is lexical analysi
 # 1)Lexical Analysis:
 
 Introduction :
+
 Lexical analysis is the first phase of a compiler. It takes the modified source code from language preprocessors 
 that are written in the form of sentences.The lexical analyzer breaks these syntaxes into a series of tokens, 
 by removing any whitespace or comments in the source code. If the lexical analyzer finds a token invalid,
@@ -36,7 +37,7 @@ More concisely, we can use regular expressions:
     Letter = 'A' | ... | 'Z' | 'a' | ... | 'z'
     IdChar = Letter | Digit
     TKey   = 'i' 'f' | 'e' 'l' 's' 'e' | ...
-    TSpec  = '+''+' | '+' | ...For more info, please check For this link:http://www.cse.chalmers.se/edu/year/2009/course/TIN321_Proglang/lectures/proglang-04.html
+    TSpec  = '+''+' | '+' | ...For more info, please check For this link: #http://www.cse.chalmers.se/edu/year/2009/course/TIN321_Proglang/lectures/proglang-04.html
 
 
 
