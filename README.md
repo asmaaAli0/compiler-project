@@ -5,8 +5,11 @@ first phase of the interpreter for cool  is lexical analysi
 
 # Prerequisites
 -Install any ide such as Intellij, NetBeans, Eclipse (Intellij is preferred )
+
 -then follow this link : https://github.com/antlr/antlr4/blob/master/doc/java-target.md
+
 -bring your grammar (in this project it is COOL.g4)
+
 -press Ctrl+Shift+G
 
 # 1)Lexical Analysis:
@@ -23,7 +26,6 @@ from the source code, checks for legal tokens, and passes the data to the syntax
 # Regular Expressions:
 
 A good way of specifying and documenting the lexer is transition diagrams.
-
 More concisely, we can use regular expressions:
 
     Tokens = Space (Token Space)*
@@ -34,7 +36,7 @@ More concisely, we can use regular expressions:
     Letter = 'A' | ... | 'Z' | 'a' | ... | 'z'
     IdChar = Letter | Digit
     TKey   = 'i' 'f' | 'e' 'l' 's' 'e' | ...
-    TSpec  = '+''+' | '+' | ...For more info, please check For http://www.cse.chalmers.se/edu/year/2009/course/TIN321_Proglang/lectures/proglang-04.md
+    TSpec  = '+''+' | '+' | ...For more info, please check For this link:http://www.cse.chalmers.se/edu/year/2009/course/TIN321_Proglang/lectures/proglang-04.html
 
 
 
