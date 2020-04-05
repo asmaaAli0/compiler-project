@@ -12,7 +12,7 @@ The first phase of the interpreter for cool  is lexical analysi.
 
 -press Ctrl+Shift+G
 
-# 1)Lexical Analysis:
+### 1)Lexical Analysis:
 
 Introduction :
 
@@ -24,7 +24,7 @@ from the source code, checks for legal tokens, and passes the data to the syntax
 
 ![](https://raw.githubusercontent.com/asmaa122281/compiler-project/master/lexical%20(1).png)
 
-# Regular Expressions:
+### Regular Expressions:
 
 A good way of specifying and documenting the lexer is transition diagrams.
 More concisely, we can use regular expressions:
@@ -37,7 +37,7 @@ More concisely, we can use regular expressions:
     Letter = 'A' | ... | 'Z' | 'a' | ... | 'z'
     IdChar = Letter | Digit
     TKey   = 'i' 'f' | 'e' 'l' 's' 'e' | ...
-    TSpec  = '+''+' | '+' | ...For more info, please check For this link: http://www.cse.chalmers.se/edu/year/2009/course/TIN321_Proglang/lectures/proglang-04.html - automatic!
+    TSpec  = '+''+' | '+' | ...For more info, please check For this link: http://www.cse.chalmers.se/edu/year/2009/course/TIN321_Proglang/lectures/proglang-04.html
 
 
 
